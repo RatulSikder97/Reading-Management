@@ -1,5 +1,20 @@
+@font-face{
+    font-family: "fedro";
+    src: url("fonts/FredokaOne-Regular.ttf");
+}
+
+@font-face{
+    font-family: "satisfy";
+    src: url("fonts/Satisfy-Regular.ttf");
+}
+
+@font-face{
+    font-family: "kalam";
+    src: url("fonts/Kalam-Light.ttf");
+}
 *{
     box-sizing: border-box;
+    font-family: "kalam";
 }
 
 body{

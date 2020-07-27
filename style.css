@@ -10,18 +10,27 @@ body{
 .header{
     
     background: #333;
+    display: flex;
+}
+.logo{
+    padding:0 20px;
+}
+.logo>h3{
+    margin: 0;
+    color: #fff;
 }
 
 .navbar{
     display: flex;
     flex: 100%;
+    margin-left: 50px;
     
 }
 
 .navbar>a{
     color: white;
     text-decoration: none;
-    padding: 15px 20px;
+    padding: 15px 25px;
 }
 
 .navbar>a:hover{
@@ -34,9 +43,35 @@ body{
 }
 
 .sidebar{
-    width: 0 0 40%;
-   padding: 20px 40px;
-    background: #333;
+    flex: 0 0 250px;
+  
+    background: #012631;
+}
+
+.sidebar ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    
+}
+
+.sidebar li{
+    padding: 20px 0px;
+    width: 100%;
+}
+
+.sidebar li:hover{
+    background: #0bffff;
+    color: #000;
+}
+.sidebar a{
+    text-decoration: none;
+    color: white;
+}
+
+.sub-menu li{
+    padding-left:20px ;
 }
 
 .main{

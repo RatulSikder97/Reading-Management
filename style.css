@@ -1,0 +1,30 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    
+    background: #333;
+}
+
+.navbar{
+    display: flex;
+    flex: 100%;
+    
+}
+
+.navbar>a{
+    color: white;
+    text-decoration: none;
+    padding: 15px 20px;
+}
+
+.navbar>a:hover{
+    background-color: #0bffff;
+    color: #000;
+}

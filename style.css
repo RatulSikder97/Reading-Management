@@ -8,14 +8,17 @@ body{
 }
 
 .header{
-    
+    width: 100%;
     background: #333;
     display: flex;
+    text-align: center;
+   
 }
 .logo{
     padding:0 20px;
 }
 .logo>h3{
+    
     margin: 0;
     color: #fff;
 }
@@ -23,7 +26,7 @@ body{
 .navbar{
     display: flex;
     flex: 100%;
-    margin-left: 50px;
+   
     
 }
 
@@ -88,15 +91,18 @@ body{
 }
 
 .card-container{
+    flex: 1;
     margin: 10px auto;
     background-color: #f7f7f7;
     display: flex;
+    justify-content: space-evenly;
+    
   
 }
 
 .card{
     height: 400px;
-    width: 50%;
+    width: 100%;
     background: #fff;
     padding: 20px;
     margin:20px;
@@ -111,3 +117,24 @@ body{
     background: #444;
     color: white;
 }
+
+
+@media screen and (max-width: 992px){
+    .navbar,.sidebar{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 700px){
+    *{
+        flex-direction: column;
+    }
+    .navbar{
+        display: flex;
+        flex-direction: column;
+    }
+    .card{
+        width: inherit;
+    }
+}
+

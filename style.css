@@ -138,6 +138,7 @@ body{
 }
 
 .card-header{
+    height: 10%;
     margin: 0;
     padding: 0px 15px;
     background: #88d6c9;
@@ -147,15 +148,17 @@ body{
     z-index: 1;
    
 }
+.card-header h3{
+    margin: 0 15px;
+    padding-top: 5px;
+}
 
 .content{
-    height: 93%;
+    height: 90%;
     overflow-x: hidden;
     overflow-y: auto;
 }
-.card-header h3{
-    margin: 0 15px;
-}
+
 
 .content::-webkit-scrollbar{
     width: 10px;

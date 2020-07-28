@@ -1,3 +1,19 @@
+
+@font-face{
+    font-family: "fedro";
+    src: url("fonts/FredokaOne-Regular.ttf");
+}
+
+@font-face{
+    font-family: "satisfy";
+    src: url("fonts/Satisfy-Regular.ttf");
+}
+
+@font-face{
+    font-family: "kalam";
+    src: url("fonts/Kalam-Regular.ttf");
+}
+
 *{
     box-sizing: border-box;
 }
@@ -54,7 +70,7 @@ body{
     color: #000;
 }
 
-.content{
+.container{
     display: flex;
 }
 
@@ -135,7 +151,11 @@ body{
 }
 .card-header h3{
     margin: 0 15px;
-    padding-top: 5px;
+    padding-top: 8px;
+    display: inline-block;
+}
+.card-header p{
+    display: inline-block;
 }
 
 .content{
@@ -182,6 +202,48 @@ body{
     color: rgb(0, 0, 0);
    
 }
+
+
+.list{
+    margin: 15px 25px;
+    position: relative;
+}
+
+.list .title{
+    display: inline-block;
+    margin: 0;
+}
+
+.list .timeShow{
+    position: absolute;
+    right: 0;
+    margin: 0;
+    display: inline-block;
+}
+
+
+.project{
+   margin: 15px 25px;
+}
+
+.project a{
+    text-decoration: none;
+    color: #000;
+    display: inline-block;
+}
+
+.project .comp{
+    border: 0.5px solid #000;
+    height: 10px;
+}
+.project .comp div{
+    background-color: lightgreen;
+    width: 50%;
+    height: 100%;
+    border: none;
+
+}
+
 
 
 

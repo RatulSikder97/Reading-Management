@@ -69,7 +69,7 @@ body{
     color: #000;
 }
 
-.content{
+.container{
     display: flex;
 }
 
@@ -219,6 +219,30 @@ body{
     margin: 0;
     display: inline-block;
 }
+
+
+.project{
+   margin: 15px 25px;
+}
+
+.project a{
+    text-decoration: none;
+    color: #000;
+    display: inline-block;
+}
+
+.project .comp{
+    border: 0.5px solid #000;
+    height: 10px;
+}
+.project .comp div{
+    background-color: lightgreen;
+    width: 50%;
+    height: 100%;
+    border: none;
+
+}
+
 
 
 
